@@ -30,6 +30,10 @@ distributed team and hundreds of repos across numerous orgs. Without
 automation it can be cumbersome to keep things in sync, and manual
 actions are susceptible to errors.
 
+This could serve like a terraform for open source organizations,
+removing a lot of the boilerplate required in setting up repos,
+ensuring consistency, etc.
+
 # Detailed design
 
 The tool would be based off a template defined in a `.github` repo
