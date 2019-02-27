@@ -20,7 +20,9 @@ To make contributors feel welcome.
 
 ## Detailed design
 
-For now we can manually handle it, but eventually we can use a GitHub Action.
+We can use a GitHub Action (once unified orgs have access) to check if the new
+contributor is part of the org and add them if they aren't to the contributor
+team.
 
 ## Drawbacks
 
@@ -28,7 +30,8 @@ None that I can see.
 
 ## Alternatives
 
-N/A
+- GitHub contribution graph
+- [all-contributors](https://github.com/all-contributors/all-contributors)
 
 ## Adoption strategy
 
@@ -36,4 +39,4 @@ N/A
 
 ## Unresolved questions
 
-N/A
+- What (if any) access do read-only members have to GitHub integrated platforms? (Zeit Now, Travis CI, etc)
