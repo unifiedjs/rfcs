@@ -1,5 +1,5 @@
 - Start Date: 2018-12-06
-- RFC PR: (leave this empty)
+- RFC PR: [1][]
 - unified Issue: (leave this empty)
 
 # Summary
@@ -55,3 +55,5 @@ aware of.
 # Adoption strategy
 
 We'd use the tooling immediately.
+
+[1]: https://github.com/unifiedjs/rfcs/pull/1
