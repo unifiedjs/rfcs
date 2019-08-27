@@ -9,7 +9,7 @@ a bit of a design process and produce a consensus among the unified core team.
 The "RFC" (request for comments) process is intended to provide a consistent
 and controlled path for new features to enter the project.
 
-[Active RFC List](https://github.com/unifiedjs/rfcs/pulls)
+[Active RFC List](https://github.com/unifiedjs/rfcs/issues?q=label%3A%22🥂+status%2Fmerged%22+is%3Aclosed)
 
 unified is still **actively developing** this process, and it will still change
 as more features are implemented and the community settles on specific
