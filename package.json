@@ -1,0 +1,27 @@
+{
+  "name": "rfcs",
+  "private": true,
+  "version": "0.0.0",
+  "description": "RFCs for unified",
+  "license": "CC-BY-4.0",
+  "keywords": [],
+  "repository": "unifiedjs/rfcs",
+  "bugs": "https://github.com/unifiedjs/rfcs",
+  "author": "Titus Wormer <tituswormer@gmail.com> (wooorm.com)",
+  "contributors": [
+    "Titus Wormer <tituswormer@gmail.com> (wooorm.com)"
+  ],
+  "devDependencies": {
+    "remark-cli": "^7.0.0",
+    "remark-preset-wooorm": "^6.0.0"
+  },
+  "scripts": {
+    "format": "remark . -qfo",
+    "test": "npm run format"
+  },
+  "remarkConfig": {
+    "plugins": [
+      "preset-wooorm"
+    ]
+  }
+}

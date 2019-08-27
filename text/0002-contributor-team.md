@@ -1,13 +1,13 @@
-- Start Date: 2019-02-27
-- RFC PR: [2][]
-- unified Issue:
+*   Start date: 2019-02-27
+*   RFC PR: [2][]
+*   Implementation issue(s): [`unifiedjs/github-tools#7`][issue]
 
 # Summary
 
-It'd be nice to add a “contributor” team to unified organizations which
-all contributors are invited to.
-There’s precedent here with what Gatsby does and helps contributors
-receive a warm welcome to the community after getting a PR merged.
+It’d be nice to add a “contributor” team to unified organizations that all
+contributors are invited to.
+There’s precedent here with what Gatsby does and helps contributors receive a
+warm welcome to the community after getting a PR merged.
 
 ## Basic example
 
@@ -41,6 +41,8 @@ N/A
 N/A
 
 [2]: https://github.com/unifiedjs/rfcs/pull/2
+
+[issue]: https://github.com/unifiedjs/github-tools/issues/7
 
 [motion]: https://github.com/unifiedjs/governance/blob/master/members.md#motion-to-nominate-a-contributor
 
