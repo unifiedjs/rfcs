@@ -1,4 +1,5 @@
 *   Start date: (fill me in with today’s date, YYYY-MM-DD)
+*   Scope: (fill me in with e.g., the collective, remark, `remarkjs/remark-toc`)
 *   RFC PR: <!-- leave this empty -->
 *   Implementation issue(s): <!-- leave this empty -->
 

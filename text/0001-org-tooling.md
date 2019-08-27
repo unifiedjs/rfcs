@@ -1,4 +1,5 @@
 *   Start date: 2018-12-06
+*   Scope: the collective
 *   RFC PR: [1][]
 *   Implementation issue(s): n/a (see [`unifiedjs/github-tools`][tools])
 
