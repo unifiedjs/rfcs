@@ -1,7 +1,8 @@
 *   Start date: 2019-02-27
 *   Scope: the collective
 *   RFC PR: [2][]
-*   Implementation issue(s): [`unifiedjs/github-tools#7`][issue]
+*   Implementation issue(s): [`unifiedjs/github-tools#7`][issue] and
+    [`unifiedjs/github-tools#8`][pr]
 
 # Summary
 
@@ -44,6 +45,8 @@ N/A
 [2]: https://github.com/unifiedjs/rfcs/pull/2
 
 [issue]: https://github.com/unifiedjs/github-tools/issues/7
+
+[pr]: https://github.com/unifiedjs/github-tools/pull/8
 
 [motion]: https://github.com/unifiedjs/governance/blob/master/members.md#motion-to-nominate-a-contributor
 
