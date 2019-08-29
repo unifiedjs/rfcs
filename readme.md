@@ -4,7 +4,7 @@
 multiple projects or organizations, are made through **RFCs** (request for
 comments).
 How members of the collective make decisions, and when an RFC is appropriate, is
-described in our [governance docs][decisions] (includes a flowchart!)
+described in our [collective governance docs][decisions] (includes a flowchart!)
 This document described how to request, discuss, decide, and implement RFCs.
 
 Please understand that an RFC is a *request for comments*, with an emphasis on
@@ -94,7 +94,7 @@ RFC process][].
 
 [active]: https://github.com/unifiedjs/rfcs/issues?q=label%3A%22🥂+status%2Fmerged%22+is%3Aclosed
 
-[decisions]: https://github.com/unifiedjs/governance/blob/master/decisions.md
+[decisions]: https://github.com/unifiedjs/collective/blob/master/decisions.md
 
 [fork]: http://github.com/unifiedjs/rfcs
 
