@@ -1,4 +1,4 @@
-# unified RFCs — [List of active RFCs][active]
+# unified RFCs — [list of active RFCs][active]
 
 “Substantial” initiatives in the unified collective, such as those affecting
 multiple projects or organizations, are made through **RFCs** (request for
@@ -14,7 +14,7 @@ individual opinions.
 Quite often, even proposals that seem “obvious” can be significantly improved
 once a wider group of interested people have a chance to weigh in.
 
-## Table of contents
+## Contents
 
 *   [Process](#process)
     *   [Request](#request)
