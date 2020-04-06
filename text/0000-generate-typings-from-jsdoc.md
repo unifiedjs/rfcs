@@ -36,6 +36,7 @@ There are several drawbacks to this approach:
 1. TypeScript driven by JSDocs is a newer feature in TypeScript, not all TypeScript developers are familiar with the feature or it's syntax, there may be an additional learning curve.
 2. Not all JavaScript developers are familiar with JSDoc, or with type annotations, there may be an additional learning curve.
 3. It would require some refactoring, TypeScript discourages reassignment to a variable with different types (For example `foo` being a `number` the later a `string`). 
+4. Increased source code length, including detailed comments inline can increase number of lines in a file significantly.
 
 ## Alternatives
 
