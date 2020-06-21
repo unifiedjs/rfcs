@@ -94,7 +94,7 @@ RFC process][].
 
 [active]: https://github.com/unifiedjs/rfcs/issues?q=label%3A%22🥂+status%2Fmerged%22+is%3Aclosed
 
-[decisions]: https://github.com/unifiedjs/collective/blob/master/decisions.md
+[decisions]: https://github.com/unifiedjs/collective/blob/HEAD/decisions.md
 
 [fork]: http://github.com/unifiedjs/rfcs
 

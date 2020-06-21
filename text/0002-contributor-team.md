@@ -48,7 +48,7 @@ N/A
 
 [pr]: https://github.com/unifiedjs/github-tools/pull/8
 
-[motion]: https://github.com/unifiedjs/collective/blob/master/members.md#motion-to-nominate-a-contributor
+[motion]: https://github.com/unifiedjs/collective/blob/HEAD/members.md#motion-to-nominate-a-contributor
 
 [tools]: https://github.com/unifiedjs/github-tools
 
