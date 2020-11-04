@@ -22,7 +22,7 @@ I’m assuming this is coming from a couple of places:
 
 *   unified is becoming more popular
 *   MDX, recently react-markdown, and potentially more in the future, joined
-*   Discussions is an easy way for folks to ask questions
+*   [Discussions](https://github.blog/2020-05-06-new-from-satellite-2020-github-codespaces-github-discussions-securing-code-in-private-repositories-and-more/#discussions) is an easy way for folks to ask questions
 
 Regardless of why, a different type of user is reaching unified (an exemplary
 question yesterday was: “why are there margins on my `<p>`”,
