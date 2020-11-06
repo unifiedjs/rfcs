@@ -60,9 +60,6 @@ Specifically, for automation, I’m thinking:
     `platform/*` can be found from the issue checklist;
     merging can add `status/merge`, or `status/wontfix` can close one;
     `area/*` could be added to the issue title?
-*   Maybe difficult, but: GH has support for finding similar issues, but doesn’t
-    scan all our repos (or discussions), maybe we can do that ourselves: respond
-    on an issue with similar issues?
 *   Lock old issues
 
 I’m thinking this can be done in GH actions, which seems to be pretty fast.
