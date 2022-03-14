@@ -11,11 +11,12 @@ Update the `stringify` function to be an async function.
 
 Why are we doing this?
 The change allows for great fexibliy in implementing Compile plugins, by allowing `stringify`
-to return a promise.
-What use cases does it support?
-Cases when Compile is naturally async.
-What is the expected outcome?
-
+to return a promise. Additionally, this will ensure that plugins loaded via cli (unified-args)
+function the same as plugins loaded via `.use()`.  
+What use cases does it support?  
+Cases when Compile is naturally async.  
+What is the expected outcome?  
+  
 Currently all implementations of Compile plugins must be sync, this is becasuse `stringify`
 is async and the results of the Complie plugin is used before internally in `stringify`.
 `unified-engine` uses `trough` to call `stringify`, `trough` implicitly handles middle-ware
