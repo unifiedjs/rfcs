@@ -110,7 +110,7 @@ debate).
 Not relevant since it is a new project.
 
 [`rehype-github`]: https://github.com/rehypejs/rehype-github
+
 [`rehype-github-image`]: https://github.com/rehypejs/rehype-github/tree/main/packages/image
+
 [go-camo]: https://github.com/cactus/go-camo
-
-
