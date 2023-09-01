@@ -1,5 +1,5 @@
 *   2023-07-04
-*   Scope: `rehypejs/rehype-github` (or new repository)
+*   Scope: new repository
 *   RFC PR: <!-- leave this empty -->
 *   Implementation issue(s): <!-- leave this empty -->
 
@@ -28,8 +28,8 @@ server, can use the well maintained [go-camo][] to solve this.  However, there
 is no Node.js equivalent, nor is there a plug-and-play solution for processing
 markdown which takes this problem into account.
 
-Case in point: a new Node.js HTTP proxy to route images through SSL, and a
-unified plugin to rewrite image URLs to use this proxy if necessary.
+Case in point: a new Node.js HTTP proxy to route images through SSL, to be
+used together with the existing [`rehype-github-image`][] plugin.
 
 It’s in the ecosystem’s and the web’s best interest to create awareness and
 solutions for security problems when authoring user content.
@@ -62,8 +62,6 @@ solutions for security problems when authoring user content.
   +----------+
 ```
 
-*   A new plugin in \[`rehypejs/rehype-github`]\[] to rewrite image URLs to use
-    this proxy if necessary.
 *   Out of scope (for now): metrics endpoint for usage data, filtering rules.
 
 ## Funding
@@ -104,15 +102,15 @@ debate).
 
 ## Alternatives
 
-*   Only creating a unified plugin compatible with [go-camo][].  This would take
-    significantly less effort and no funds.  It would still leave the Node.js
-    ecosystem without a solution.
-*   Not doing anything, only writing about the problem.
+*   Only keeping the [`rehype-github-image`][] plugin and document the existing
+    servers, not creating a Node.js server.
 
 ## Adoption strategy
 
 Not relevant since it is a new project.
 
 [`rehype-github`]: https://github.com/rehypejs/rehype-github
-
+[`rehype-github-image`]: https://github.com/rehypejs/rehype-github/tree/main/packages/image
 [go-camo]: https://github.com/cactus/go-camo
+
+
